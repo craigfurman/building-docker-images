@@ -1,0 +1,5 @@
+- hosts: containers
+  remote_user: root
+
+  tasks:
+  - apt: name=htop update_cache=yes
